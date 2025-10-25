@@ -1,0 +1,38 @@
+GIMP Palette
+Name: Mazha
+Columns: 5
+#
+# Forest
+198 236 210   Forest Lightest
+121 210 151   Forest Lighter
+57 172 96     Forest Light
+32 96 53      Forest Base
+6 19 11       Forest Dark
+#
+# Sage
+224 235 224   Sage Light
+179 204 179   Sage Base
+117 163 117   Sage Dark
+71 107 71     Sage Darker
+31 46 31      Sage Darkest
+#
+# Olive
+222 228 205   Olive Lighter
+179 193 139   Olive Light
+132 149 80    Olive Base
+73 83 45      Olive Dark
+15 17 9       Olive Darker
+#
+# Taupe
+236 230 223   Taupe Lighter
+207 191 175   Taupe Light
+169 140 112   Taupe Base
+112 89 67     Taupe Dark
+48 38 29      Taupe Darker
+#
+# Espresso
+224 201 184   Espresso Lightest
+194 146 112   Espresso Lighter
+143 95 61     Espresso Light
+71 48 31      Espresso Base
+18 12 8       Espresso Dark

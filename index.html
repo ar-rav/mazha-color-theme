@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Mazha the Plant Boutique — Brand Color Theme Proposal</title>
+		<meta name="description" content="Color palette proposal for Mazha the Plant Boutique with swatches, gradients, usage guidance, and color theory rationale." />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="hero">
+			<div class="hero-inner">
+				<img class="logo" src="Mazha.svg" alt="Mazha logo" />
+				<div class="branding">
+					<h1>Mazha | മഴ</h1>
+					<h2>The Plant Boutique</h2>
+					<p>Brand color theme proposal — 5-color palette with gradients, roles, and rationale</p>
+				</div>
+			</div>
+		</header>
+
+		<main class="wrap">
+			<section id="overview" class="card">
+				<h2>Overview</h2>
+				<p>Five carefully tuned hues form a cohesive, nature-forward system. <strong>Analogous harmony</strong> (adjacent hues 75°–140°) creates unity, while <strong>temperature balance</strong> (cool greens + warm browns) adds depth. Following the 60–30–10 rule keeps interfaces calm and ordered while gradients-to-white create airy, botanical surfaces.</p>
+				<div class="chips" aria-label="recommended roles">
+					<span class="chiplet bg-forest text-white">Accent A • Forest</span>
+					<span class="chiplet bg-sage">Primary background • Sage</span>
+					<span class="chiplet bg-olive">Accent B • Olive</span>
+					<span class="chiplet bg-taupe">Secondary surfaces • Taupe</span>
+					<span class="chiplet bg-espresso text-white">Anchor / Text • Espresso</span>
+				</div>
+			</section>
+
+			<section id="why" class="card">
+				<h2>Why 5 Colors?</h2>
+				<p><strong>Color theory principle:</strong> The 60-30-10 rule suggests limiting palettes to avoid visual chaos. With gradients, we effectively have 25 visual elements.</p>
+				<ul>
+					<li>✓ 2 greens (cool-neutral range)</li>
+					<li>✓ 2 browns (warm range)</li>
+					<li>✓ 1 olive (bridges both families)</li>
+				</ul>
+				<div class="chip-grid">
+					<div class="chip bg-forest text-white">
+						<div class="name">Forest Green</div>
+						<div class="desc">Rich, deep accent</div>
+						<div><span class="code muted">hsl(140, 50%, 25%)</span></div>
+					</div>
+					<div class="chip bg-sage">
+						<div class="name">Sage Green</div>
+						<div class="desc">Calm, light anchor</div>
+						<div><span class="code">hsl(120, 20%, 75%)</span></div>
+					</div>
+					<div class="chip bg-olive">
+						<div class="name">Olive Green</div>
+						<div class="desc">Bridge between green ↔ brown</div>
+						<div><span class="code">hsl(75, 30%, 45%)</span></div>
+					</div>
+					<div class="chip bg-taupe">
+						<div class="name">Warm Taupe</div>
+						<div class="desc">Versatile mid neutral</div>
+						<div><span class="code">hsl(30, 25%, 55%)</span></div>
+					</div>
+					<div class="chip bg-espresso text-white">
+						<div class="name">Espresso Brown</div>
+						<div class="desc">Darkest anchor</div>
+						<div><span class="code muted">hsl(25, 40%, 20%)</span></div>
+					</div>
+				</div>
+			</section>
+
+            <section id="palette" class="card">
+                <h2>Palette</h2>
+                <div class="palette-grid">
+                    <!-- Row 1: Forest -->
+                    <div class="swatch" style="background: var(--mazha-forest-lightest)" title="Forest Lightest • hsl(140, 50%, 85%) • #c6ecd2"></div>
+                    <div class="swatch" style="background: var(--mazha-forest-lighter)" title="Forest Lighter • hsl(140, 50%, 65%) • #79d297"></div>
+                    <div class="swatch" style="background: var(--mazha-forest-light)" title="Forest Light • hsl(140, 50%, 45%) • #39ac60"></div>
+                    <div class="swatch" style="background: var(--mazha-forest-base)" title="Forest Base • hsl(140, 50%, 25%) • #206035"></div>
+                    <div class="swatch" style="background: var(--mazha-forest-dark)" title="Forest Dark • hsl(140, 50%, 5%) • #06130b"></div>
+                    
+                    <!-- Row 2: Sage -->
+                    <div class="swatch" style="background: var(--mazha-sage-light)" title="Sage Light • hsl(120, 20%, 90%) • #e0ebe0"></div>
+                    <div class="swatch" style="background: var(--mazha-sage-base)" title="Sage Base • hsl(120, 20%, 75%) • #b3ccb3"></div>
+                    <div class="swatch" style="background: var(--mazha-sage-dark)" title="Sage Dark • hsl(120, 20%, 55%) • #75a375"></div>
+                    <div class="swatch" style="background: var(--mazha-sage-darker)" title="Sage Darker • hsl(120, 20%, 35%) • #476b47"></div>
+                    <div class="swatch" style="background: var(--mazha-sage-darkest)" title="Sage Darkest • hsl(120, 20%, 15%) • #1f2e1f"></div>
+
+                    <!-- Row 3: Olive -->
+                    <div class="swatch" style="background: var(--mazha-olive-lighter)" title="Olive Lighter • hsl(75, 30%, 85%) • #dee4cd"></div>
+                    <div class="swatch" style="background: var(--mazha-olive-light)" title="Olive Light • hsl(75, 30%, 65%) • #b3c18b"></div>
+                    <div class="swatch" style="background: var(--mazha-olive-base)" title="Olive Base • hsl(75, 30%, 45%) • #849550"></div>
+                    <div class="swatch" style="background: var(--mazha-olive-dark)" title="Olive Dark • hsl(75, 30%, 25%) • #49532d"></div>
+                    <div class="swatch" style="background: var(--mazha-olive-darker)" title="Olive Darker • hsl(75, 30%, 5%) • #0f1109"></div>
+                    
+                    <!-- Row 4: Taupe -->
+                    <div class="swatch" style="background: var(--mazha-taupe-lighter)" title="Taupe Lighter • hsl(30, 25%, 90%) • #ece6df"></div>
+                    <div class="swatch" style="background: var(--mazha-taupe-light)" title="Taupe Light • hsl(30, 25%, 75%) • #cfbfaf"></div>
+                    <div class="swatch" style="background: var(--mazha-taupe-base)" title="Taupe Base • hsl(30, 25%, 55%) • #a98c70"></div>
+                    <div class="swatch" style="background: var(--mazha-taupe-dark)" title="Taupe Dark • hsl(30, 25%, 35%) • #705943"></div>
+                    <div class="swatch" style="background: var(--mazha-taupe-darker)" title="Taupe Darker • hsl(30, 25%, 15%) • #30261d"></div>
+                    
+                    <!-- Row 5: Espresso -->
+                    <div class="swatch" style="background: var(--mazha-espresso-lightest)" title="Espresso Lightest • hsl(25, 40%, 80%) • #e0c9b8"></div>
+                    <div class="swatch" style="background: var(--mazha-espresso-lighter)" title="Espresso Lighter • hsl(25, 40%, 60%) • #c29270"></div>
+                    <div class="swatch" style="background: var(--mazha-espresso-light)" title="Espresso Light • hsl(25, 40%, 40%) • #8f5f3d"></div>
+                    <div class="swatch" style="background: var(--mazha-espresso-base)" title="Espresso Base • hsl(25, 40%, 20%) • #47301f"></div>
+                    <div class="swatch" style="background: var(--mazha-espresso-dark)" title="Espresso Dark • hsl(25, 40%, 5%) • #120c08"></div>
+                </div>
+            </section>
+
+			<section id="wheel" class="card">
+				<h2>Color Wheel</h2>
+				<div class="wheel"></div>
+			</section>
+
+			<section id="usage" class="card">
+				<h2>Usage & Hierarchy (60–30–10)</h2>
+				<div class="bars" aria-label="distribution bars">
+					<div class="bar primary">60%</div>
+					<div class="bar secondary">30%</div>
+					<div class="bar accent">10%</div>
+				</div>
+				<ul>
+					<li><strong>60% Sage</strong> for pages and soft backgrounds, fading gently to white.</li>
+					<li><strong>30% Taupe</strong> for cards, panels, and neutral UI elements.</li>
+					<li><strong>10% Accents</strong> split between Forest (primary actions) and Olive (secondary highlights). Espresso is reserved for text, borders, and deep accents for clarity.</li>
+				</ul>
+			</section>
+
+			<section id="tokens" class="card">
+				<h2>CSS Tokens</h2>
+				<p>Use these variables to keep the brand consistent across web properties:</p>
+				<pre class="codeblock" id="tokenBlock"><code>:root {
+    --mazha-sage: hsl(120 20% 75%);
+    --mazha-forest: hsl(140 50% 25%);
+    --mazha-taupe: hsl(30 25% 55%);
+    --mazha-espresso: hsl(25 40% 20%);
+    --mazha-olive: hsl(75 30% 45%);
+}</code></pre>
+				<button id="copyTokens" class="btn">Copy tokens</button>
+			</section>
+
+			<section id="samples" class="card">
+				<h2>Sample UI (for feel)</h2>
+				<div class="sample-ui">
+					<div class="uicard">
+						<div class="banner banner-sage"></div>
+						<div class="body">
+							<span class="label bg-olive text-white">New arrival</span>
+							<h3>Fiddle Leaf Fig</h3>
+							<p class="muted">A statement plant that thrives in bright indirect light.</p>
+							<div style="display:flex; gap:8px">
+								<button class="btn primary">Add to cart</button>
+								<button class="btn">Learn more</button>
+							</div>
+						</div>
+					</div>
+					<div class="uicard">
+						<div class="banner banner-taupe"></div>
+						<div class="body">
+							<span class="label bg-sage">Care tip</span>
+							<h3>Watering cadence</h3>
+							<p class="muted">Let soil dry between waterings; avoid soggy roots.</p>
+							<button class="btn">Read guide</button>
+						</div>
+					</div>
+					<div class="uicard">
+						<div class="banner banner-forest"></div>
+						<div class="body">
+							<span class="label bg-espresso text-white">Announcement</span>
+							<h3>Spring collection</h3>
+							<p class="muted">New varieties arriving weekly—stay tuned.</p>
+							<button class="btn">Preview lineup</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="rationale" class="card">
+				<h2>Color Theory Justification</h2>
+				<div>
+					<h3>Why five colors?</h3>
+					<p>Five hues keep the system clear and harmonious with the 60–30–10 guideline. Gradients-to-white add softness without adding extra hues.</p>
+					<ul>
+						<li>Two greens for freshness and depth</li>
+						<li>Two browns for warmth and grounding</li>
+						<li>Olive as the natural bridge between families</li>
+					</ul>
+
+					<h3>Color roles at a glance</h3>
+					<ol>
+						<li>
+							<strong>Sage Green (H120 S20 L75)</strong> — Light anchor
+							<ul>
+								<li>Soft, sophisticated lightness with low saturation</li>
+								<li>Neutral green base that plays well with warm and cool accents</li>
+								<li>Ideal for backgrounds and subtle gradients to white</li>
+							</ul>
+						</li>
+						<li>
+							<strong>Forest Green (H140 S50 L25)</strong> — Deep accent
+							<ul>
+								<li>Blue-leaning green adds richness and visual tension with Sage</li>
+								<li>Higher saturation preserves color identity at a darker value</li>
+								<li>Great for primary actions and emphasis</li>
+							</ul>
+						</li>
+						<li>
+							<strong>Warm Taupe (H30 S25 L55)</strong> — Mid neutral
+							<ul>
+								<li>Comforting orange-brown tilt brings warmth</li>
+								<li>Balanced mid-light value for cards and panels</li>
+								<li>Low saturation keeps UI elements from competing</li>
+							</ul>
+						</li>
+						<li>
+							<strong>Espresso Brown (H25 S40 L20)</strong> — Darkest anchor
+							<ul>
+								<li>Warm depth for headings, borders, and high-contrast text</li>
+								<li>Sufficient saturation avoids muddiness at low lightness</li>
+								<li>Pairs powerfully with Forest for complementary tension</li>
+							</ul>
+						</li>
+						<li>
+							<strong>Olive Green (H75 S30 L45)</strong> — Bridge
+							<ul>
+								<li>Sits naturally between green and brown families</li>
+								<li>Reads as green or earth tone depending on context</li>
+								<li>Unifies the palette with an analogous arc</li>
+							</ul>
+						</li>
+					</ol>
+
+					<h3>Harmony in practice</h3>
+					<ul>
+						<li><strong>Temperature</strong>: Cool (Forest) → Neutral (Sage/Olive) → Warm (Taupe/Espresso)</li>
+						<li><strong>Values</strong>: Light (Sage) → Mid (Taupe/Olive) → Dark (Forest) → Darkest (Espresso)</li>
+						<li><strong>Saturation</strong>: Higher at darker values to keep colors vivid; refined at lighter values for calm surfaces</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			© <span id="year"></span> Mazha the Plant Boutique · Palette draft for review
+		</footer>
+		<script src="scripts.js"></script>
+	</body>
+</html>
