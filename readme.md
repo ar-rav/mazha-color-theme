@@ -24,6 +24,3 @@ The purpose of this project is to offer a ready-to-use color theme that enhances
 ## License
 
 This project is licensed under the MIT License. Feel free to use and modify it as needed.
-
----
-Happy designing!
