@@ -503,17 +503,18 @@ footer { border-top: 1px solid var(--line); color: var(--muted-ink); padding: va
 }
 
 .subpage .qr-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-	gap: var(--space-lg);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10px, 1fr));
+    grid-auto-rows: 1fr;
+    gap: var(--space-md);
 }
 
 .subpage .qr-card {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: var(--space-sm);
-	padding: var(--space-lg);
+	gap: var(--space-xs);
+	padding: var(--space-sm);
 	border-radius: var(--radius-lg);
 	background: var(--surface-card);
 	box-shadow: var(--shadow);
