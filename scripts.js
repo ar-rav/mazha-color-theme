@@ -1,16 +1,23 @@
 // Copy CSS tokens to clipboard (kept)
-const copyBtn = document.getElementById('copyTokens');
-const tokenBlock = document.getElementById('tokenBlock');
-copyBtn?.addEventListener('click', async () => {
-	const text = tokenBlock?.innerText?.trim();
-	try {
-		await navigator.clipboard.writeText(text);
-		copyBtn.textContent = 'Copied ✓';
-		setTimeout(() => (copyBtn.textContent = 'Copy tokens'), 1600);
-	} catch (e) {
-		copyBtn.textContent = 'Press ⌘C to copy';
-		setTimeout(() => (copyBtn.textContent = 'Copy tokens'), 1600);
-	}
+const copyPairs = [
+    { buttonId: 'copyTokens', blockId: 'tokenBlock', label: 'Copy tokens' },
+    { buttonId: 'copyExtendedTokens', blockId: 'extendedTokenBlock', label: 'Copy extended tokens' }
+];
+
+copyPairs.forEach(({ buttonId, blockId, label }) => {
+    const btn = document.getElementById(buttonId);
+    const block = document.getElementById(blockId);
+    btn?.addEventListener('click', async () => {
+        const text = block?.innerText?.trim();
+        try {
+            await navigator.clipboard.writeText(text);
+            btn.textContent = 'Copied';
+            setTimeout(() => (btn.textContent = label), 1600);
+        } catch (e) {
+            btn.textContent = 'Press ⌘C to copy';
+            setTimeout(() => (btn.textContent = label), 1600);
+        }
+    });
 });
 
 // Footer year (kept)
